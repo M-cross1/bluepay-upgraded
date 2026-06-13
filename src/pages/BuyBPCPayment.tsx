@@ -75,7 +75,7 @@ const BuyBPCPayment = () => {
       </div>
 
       <div className="flex flex-col items-center p-4 mb-4">
-        <h1 className="text-3xl font-bold mb-1">NGN 6,200</h1>
+        <h1 className="text-3xl font-bold mb-1">NGN 8,250</h1>
         <p className="text-gray-600 text-sm">BPC Code Purchase</p>
       </div>
 
@@ -95,7 +95,7 @@ const BuyBPCPayment = () => {
         <div className="mb-3">
           <p className="text-gray-500 text-xs">Amount</p>
           <div className="flex justify-between items-center">
-            <p className="text-lg font-bold">NGN 6200</p>
+            <p className="text-lg font-bold">NGN 8250</p>
             <Button
               variant="default"
               size="sm"
@@ -111,7 +111,7 @@ const BuyBPCPayment = () => {
         <div className="mb-3 border-t pt-3">
           <p className="text-gray-500 text-xs">Account Number</p>
           <div className="flex justify-between items-center">
-            <p className="text-lg font-bold">1744825894</p>
+            <p className="text-lg font-bold">2023242526</p>
             <Button
               variant="default"
               size="sm"
@@ -126,12 +126,12 @@ const BuyBPCPayment = () => {
 
         <div className="mb-3 border-t pt-3">
           <p className="text-gray-500 text-xs">Bank Name</p>
-          <p className="text-lg font-bold">SMARTCASH PSB</p>
+          <p className="text-lg font-bold">DULLCASH PSB</p>
         </div>
 
         <div className="mb-3 border-t pt-3">
           <p className="text-gray-500 text-xs">Account Name</p>
-          <p className="text-lg font-bold">ABDULRAHIM IBRAHIM</p>
+          <p className="text-lg font-bold">BO BO</p>
         </div>
       </div>
 
@@ -144,7 +144,7 @@ const BuyBPCPayment = () => {
           className="bg-blue-600 hover:bg-blue-700 w-full py-4 text-base font-semibold"
           onClick={handlePaymentConfirm}
         >
-          I have made this bank Transfer
+          I have made this bank Transfer✅
         </Button>
       </div>
     </div>
