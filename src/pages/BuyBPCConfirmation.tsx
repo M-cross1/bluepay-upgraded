@@ -25,7 +25,7 @@ const BuyBPCConfirmation = () => {
     setTimeout(() => {
       toast({
         variant: "destructive",
-        description: "Payment still not confirmed",
+        description: "Payment still not confirmed❌",
         duration: 3000,
       });
     }, 2000);
